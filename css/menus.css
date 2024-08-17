@@ -1,0 +1,58 @@
+.nav {
+	margin: 0%;
+	display: inline-block;/*Centrar*/
+	padding: 0%;
+	list-style:none;
+	text-align:center;
+}
+
+.nav li {
+	float: left; /*Menu horizaontal*/
+	width: 200px; /*ancho del menu*/
+	margin-top:0.5%;
+	margin-bottom:0.5%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; /*Fuente de la letra*/
+	position: relative;
+}
+@media screen and (max-width: 800px) { .nav li {width:100%;}}
+
+.nav li a {
+	background: #000;/* Fondo del menu*/
+	color: #fff;/* Letra del menu*/
+	display: block;
+	font-size:18px; /*Tamano de la letra*/
+	text-decoration: none;
+	border-top: 1px solid #000;/* Borde */
+}
+
+.nav li a:hover {
+	color: #FF0; /* Color de la letra al pasar el mouse */
+}
+
+/*=== submenu ===*/
+
+.nav ul {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+.nav ul li {
+	width: 160px;
+	float: left;
+}
+
+.nav ul a {
+	display: block;
+	height: 15px;
+	padding: 7px 8px;
+	color: #FFF; /* Color de letra sub nivel*/
+	text-decoration: none;
+	border-bottom: 1px solid #222; /* Color del borde del sub nivel*/
+}
+
+.nav ul li a:hover {
+	color: #FF0; /* Color de la letra al pasar el mouse sub nive*/
+}

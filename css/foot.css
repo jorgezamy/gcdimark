@@ -1,0 +1,36 @@
+.navv {
+	margin: 0%;
+	display: inline-block;/*Centrar*/
+	padding: 0%;
+	list-style:none;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+}
+
+.navv li {
+	float: left; /*Menu horizaontal*/
+	width: 290px; /*ancho del menu*/
+	margin-top:1%;
+	margin-bottom:1%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; /*Fuente de la letra*/
+	position: relative;
+}
+@media screen and (max-width: 800px) {
+	.navv li {
+		width:100%;
+	}
+}
+
+.navv li a {
+	background: #000;/* Fondo del menu*/
+	color: #FFF;/* Letra del menu*/
+	display: block;
+	font-size:14px; /*Tamano de la letra*/
+	text-decoration: none;
+	border-top: 1px solid #000;/* Borde */
+}
+
+.navv li a:hover {
+	color: #FF0; /* Color de la letra al pasar el mouse */
+}

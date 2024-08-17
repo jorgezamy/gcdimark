@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contendedor{
+	float:left;
+	border:1px;
+	width:500px;
+	margin:0px;
+	}
+	
+#imagen{
+	float:center;
+	margin:0px;
+	}
+
+#titulo{
+	color:#FFF;
+	font-size:40px;
+	font-family:Franklin Gothic Demi Cond;
+	text-shadow:0px 0px 8px #06C;
+	margin-top:2%;
+	margin-bottom:0%;
+	}
+
+#texto{
+	font-family:Calibri (Cuerpo);
+	color:#FFF;
+	margin-left:2%;
+	margin-right:2%;
+	font-size:120%;
+	text-align:justify;
+	}
+
+.no-seleccionable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
